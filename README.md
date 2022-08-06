@@ -1,0 +1,1 @@
+How to run rspec test : `rspec api.rb`

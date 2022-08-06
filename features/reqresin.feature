@@ -1,5 +1,9 @@
 Feature: API Test using Reqresrin API
 
-    Scenario: GET User
-        Given user send GET User Request
-        Then user should get response 200 OK
+    Scenario: Send GET User request
+        When user send GET User request
+        Then user should get API response 200
+
+    Scenario: Send POST login request
+        When user send GET User request
+        Then user should get API response 200

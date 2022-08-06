@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 
-gem  "rspec"
-gem  "httparty"
-gem  "json-schema"
+gem  'rspec'
+gem  'httparty'
+gem  'json-schema'
+gem  'cucumber'

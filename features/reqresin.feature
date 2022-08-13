@@ -9,3 +9,4 @@ Feature: API Test using Reqresrin API
         When user send POST login request
         Then user should get API response 200
         And response should have "$.token" matching "QpwL5tke4Pnpja7X4"
+        And response should have schema matching "login"

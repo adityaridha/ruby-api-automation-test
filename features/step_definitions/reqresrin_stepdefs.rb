@@ -20,3 +20,7 @@ Then('response should have {string} matching {string}') do |json_path, value|
     results = JsonPath.new(json_path).on(@response).to_a.map(&:to_s)
     expect(results).to include value
 end
+
+Then('response should have schema matching {string}') do |schema_path|
+    expect(@response).to match_json_schema(schema_path)
+end

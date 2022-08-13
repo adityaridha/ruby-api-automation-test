@@ -35,6 +35,9 @@ GEM
       multi_xml (>= 0.5.2)
     json-schema (3.0.0)
       addressable (>= 2.8)
+    json_matchers (0.11.1)
+      json_schema
+    json_schema (0.21.0)
     jsonpath (1.1.2)
       multi_json
     mime-types (3.4.1)
@@ -67,6 +70,7 @@ DEPENDENCIES
   cucumber
   httparty
   json-schema
+  json_matchers
   jsonpath
   rspec
 
